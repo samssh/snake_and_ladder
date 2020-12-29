@@ -57,13 +57,11 @@ public class ModelLoader {
      */
     public Player loadPlayer(String name, int playerNumber) {
         try {
-
-
-            // Code in this part
-
             File playerFile = getPlayerFile(name);
             Scanner scanner = new Scanner(playerFile);
 
+
+            // Code in this part
 
             return null;
 

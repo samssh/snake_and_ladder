@@ -103,7 +103,7 @@ public class LogicalAgent {
 
     /**
      * Give a number from graphic,( which is the playerNumber of a player
-     * who clicks "ReadyButton".) you should roll his/her dice
+     * who left clicks "dice button".) you should roll his/her dice
      * and update *****************
      */
     public void rollDice(int playerNumber) {
@@ -116,7 +116,7 @@ public class LogicalAgent {
 
     /**
      * Give a number from graphic,( which is the playerNumber of a player
-     * who clicks "ReadyButton".) you should return the dice detail of that player.
+     * who right clicks "dice button".) you should return the dice detail of that player.
      * you can use method "getDetails" in class "Dice"(not necessary, but recommended )
      */
     public String getDiceDetail(int playerNumber) {
