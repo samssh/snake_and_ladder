@@ -21,6 +21,7 @@ public class ModelLoader {
         boardFile = Config.getConfig("mainConfig").getProperty(File.class, "board");
         playersDirectory = Config.getConfig("mainConfig").getProperty(File.class, "playersDirectory");
         archiveFile = Config.getConfig("mainConfig").getProperty(File.class, "archive");
+        if (!playersDirectory.exists()) playersDirectory.mkdirs();
     }
 
 
