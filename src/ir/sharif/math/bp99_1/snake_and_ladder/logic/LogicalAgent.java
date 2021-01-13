@@ -74,6 +74,11 @@ public class LogicalAgent {
         checkForEndGame();
     }
 
+
+    public String getCellDetails(int x, int y) {
+        return "cell at " + x + "," + y;
+    }
+
     /**
      * check for endgame and specify winner
      * if player one in winner set winner variable to 1
